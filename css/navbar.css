@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3em;
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.navbar > a {
+    display: block;
+    text-decoration: none;
+    background-color: bisque;
+    padding: 0 1em;
+    text-align: center;
+    color:darkslategrey;
+    font-size: 1.5em;
+}
+
+.navbar > a > div {
+    margin-top: 20%;
+}
+
+.navbar>a:hover {
+    background-color: beige;
+}
+
+.active{
+    color:darkgray!important;
+}
